@@ -1,3 +1,7 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .BBA2-gamer-containar {
     display: flex;
     justify-content: space-around;
@@ -20,7 +24,7 @@
     height: 15px;
 }
 
-.header-img  img {
+.header-img img {
     height: 25px;
 }
 
@@ -34,7 +38,7 @@
     list-style: none;
 }
 
-.header-img{
+.header-img {
     background-color: #E7E6E9;
     display: flex;
     align-items: center;
@@ -46,21 +50,55 @@
     border-radius: 10px;
 
 }
+
 /* nav-end */
 
 .goat-containar {
+    background-color: #FBF5FB;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
 
+
 }
+
+.goat-content {
+    line-height: 15px;
+}
+
+.goat-content-h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #B152DA;
+}
+
+.btn-section {
+    background-color: #FF42A5;
+    color: whitesmoke;
+    border: 1px solid #FF42A5;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.btn-section-2 {
+    background-color: #4EC5F7;
+    color: whitesmoke;
+    border: 1px solid #4EC5F7;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+
+
 
 .goat-of-image {
     height: 70%;
     width: 50%;
 
 }
+
+/* header-end */
 
 .online-games-title {
     margin-top: 30px;
@@ -73,14 +111,9 @@
 }
 
 .online-games-img-containar {
-
-
     display: flex;
     justify-content: center;
-   
-
-    margin-top: 50px;
-
+    flex-wrap: wrap;
 
 
 }
@@ -88,21 +121,20 @@
 .online-games-img-containar img {
     height: 80%;
     width: 80%;
-  
-    
-    
-}
-.online-games-img-containar p {
-    text-align: center;
-    width: 80%;
+
+
 
 }
+
 
 .online-games-img-content {
-    width: 20%;
+    width: 250px;
+    align-items: center;
 
 }
-.anniversary-containar{
+
+/* section-end */
+.anniversary-containar {
 
     margin: 30px;
     display: flex;
@@ -111,44 +143,91 @@
     gap: 150px;
 }
 
-.anniversary-containar-content{
+.anniversary-containar-content {
     width: 250px;
 }
-.position-relative{
+
+.anniversary-content-h1 {
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+.anniversary-content-h1>small {
+    color: #FF42A5;
+
+}
+
+.position-relative {
     position: relative;
 }
-.anniversary-img-sizing{
+
+.anniversary-img-sizing {
     position: absolute;
     margin-top: 350px;
-    margin-left: -150px;
+    margin-left: -90px;
+
 }
-.horse-doll-image-sizing{
+
+.horse-doll-image-sizing {
     height: 80%;
+    width: 450px;
+
 }
-.Arcade-Games-all{
+
+.anniversary-img-sizing {
+    height: 35%;
+    width: 15%;
+
+}
+
+/* section-start */
+
+.Arcade-Games-all {
     display: flex;
     justify-content: center;
     gap: 5px;
     border-radius: 20px;
     border: 1px solid #FFFFFF;
     width: 200px;
+    height: 50px;
     padding-left: 10px;
     background-color: #FFFFFF;
     color: #322A46;
     font-weight: bold;
 
 }
-.Arcade-Games-all-container{
+
+.Arcade-Games-all-container {
     background-color: #FFF9FC;
     margin: 90px;
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-    
+
 
 }
-.footer-container{
+
+.Arcade-Games-all-color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 20px;
+    border: 1px solid #FF42A5;
+
+    color: #FF42A5;
+
+    width: 200px;
+
+}
+
+.Arcade-Games-all-container {
+    margin-top: 150px;
+}
+
+.footer-container {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -157,31 +236,39 @@
     margin-top: 100px;
     padding-top: 50px;
 }
-.footer-container img{
+
+.footer-container img {
     height: 15px;
 }
-.footer-main-container{
+
+.footer-main-container {
     background-color: #0B0223;
-    width: 98vw;
-    height: 80vh;
+    width: 100%;
+    height:100%;
 }
-.footer-cotent{
+
+.footer-cotent {
     display: flex;
     justify-content: center;
+
     gap: 40px;
     color: whitesmoke;
 }
-.fotter-images-container{
+
+.fotter-images-container {
     display: flex;
     justify-content: center;
+
     gap: 40px;
     padding-top: 20px;
 }
-.footer-icon-sizing{
-    
-   width: 40px;
+
+.footer-icon-sizing {
+
+    width: 40px;
 }
-.footer-cotent-2{
+
+.footer-cotent-2 {
     padding-top: 20px;
     display: flex;
     justify-content: center;
@@ -189,7 +276,8 @@
     color: whitesmoke;
 
 }
-.footer-content-3{
+
+.footer-content-3 {
     text-align: center;
     color: whitesmoke;
 }
@@ -200,40 +288,70 @@
 @media screen and (max-width:560px) {
 
     .BBA2-gamer-containar,
-    .goat-containar{
+    .goat-containar {
         display: flex;
         flex-direction: column;
-        
+
 
 
     }
-    .BBA2-gamer-content{
+
+    .BBA2-gamer-content {
         display: flex;
         justify-content: center;
     }
-    .BBA2-gamer-content-2{
+
+    .BBA2-gamer-content-2 {
         display: flex;
         flex-direction: column;
     }
 
-    .goat-of-image {
-        height: 70%;
-        width: 70%;
-
-    }
-    .online-games-img-containar img{
-        width: 300%;
-        height: 300%;
-    }
-    .online-games-img-containar{
+    .anniversary-containar {
         display: flex;
         flex-direction: column;
-       align-items: start;
-       align-items: center;
-       margin: 10px 0px;
+    }
+
+    .anniversary-img-sizing {
+        position: absolute;
+        margin-top: 200px;
+        margin-left: -10px;
+        width: 170px;
+        height: 170px;
+    }
+
+    .horse-doll-image-sizing {
+        height: 80%;
+        width: 300px;
+        margin-left: 60px;
+    }
+    .footer-cotent {
+        display: grid;
+      grid-template-rows: repeat(2,1fr);
+      grid-template-columns: repeat(3,1fr);
+     padding: 0px 100px;
+     font-size: small;
+    }
+    .fotter-images-container {
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
+       padding: 10px 100px;
+       font-size: small;
        
     }
-   
-   
+    .footer-cotent-2 {
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
+       padding: 10px 100px;
+       font-size: small;
+        
+    
+    }
+    .footer-content-3{
+        
+        font-size: small;
+        padding: 0px 50px;
+    }
 
 }
